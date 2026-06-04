@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/grid_item_bg"
+    android:layout_margin="8dp"
+    android:padding="12dp"
+    android:orientation="horizontal"
+    android:elevation="2dp">
+
+    <!-- أيقونة افتراضية -->
+    <FrameLayout
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="12dp"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="⭐"
+            android:textSize="24sp" />
+
+    </FrameLayout>
+
+    <!-- المحتوى -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fav_term_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="متغير"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#193559" />
+
+        <TextView
+            android:id="@+id/fav_term_definition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="مكان في الذاكرة لتخزين قيمة"
+            android:textSize="12sp"
+            android:textColor="#555555"
+            android:maxLines="2"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+
+    <!-- زر الحذف -->
+    <ImageButton
+        android:id="@+id/btn_delete_favorite"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_delete"
+        android:background="@drawable/circle_button_bg"
+        android:scaleType="centerInside" />
+
+</LinearLayout>

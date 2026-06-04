@@ -1,0 +1,144 @@
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#F0F2F5"
+	android:fillViewport="true">
+	<LinearLayout
+		android:id="@+id/linear29"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear30"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="16dp"
+			android:background="@drawable/header_gradient"
+			android:orientation="vertical"
+			android:elevation="4dp">
+			<ImageButton
+				android:id="@+id/btn_back"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:background="@drawable/circle_button_bg"
+				android:src="@drawable/ic_back"
+				android:scaleType="centerInside" />
+			<TextView
+				android:id="@+id/term_title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="8dp"
+				android:text="متغير"
+				android:textSize="22sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"
+				android:layout_gravity="center_horizontal|center_vertical" />
+			<TextView
+				android:id="@+id/term_language"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="4dp"
+				android:text="لغة: JavaScript"
+				android:textSize="12sp"
+				android:textColor="#CCE0FF"
+				android:layout_gravity="center_horizontal|center_vertical" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear31"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="16dp"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear32"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="12dp"
+				android:padding="16dp"
+				android:background="@drawable/grid_item_bg"
+				android:orientation="vertical"
+				android:elevation="2dp">
+				<TextView
+					android:id="@+id/textview7"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="8dp"
+					android:text="📖 التعريف"
+					android:textSize="16sp"
+					android:textStyle="bold"
+					android:textColor="#193559" />
+				<TextView
+					android:id="@+id/term_definition"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="مكان في الذاكرة لتخزين قيمة"
+					android:textSize="14sp"
+					android:textColor="#555555"
+					android:lineSpacingExtra="4dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear33"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="12dp"
+				android:padding="16dp"
+				android:background="#1A2C3E"
+				android:orientation="vertical"
+				android:elevation="2dp"
+				android:radius="12dp">
+				<LinearLayout
+					android:id="@+id/linear34"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview8"
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:text="💻 مثال"
+						android:textSize="16sp"
+						android:textStyle="bold"
+						android:textColor="#5ED6C1"
+						android:layout_weight="1" />
+					<ImageButton
+						android:id="@+id/btn_copy"
+						android:layout_width="32dp"
+						android:layout_height="32dp"
+						android:background="@drawable/circle_button_bg"
+						android:src="@drawable/ic_copy"
+						android:scaleType="centerInside" />
+				</LinearLayout>
+				<TextView
+					android:id="@+id/term_example"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="8dp"
+					android:padding="12dp"
+					android:text="int x = 5;"
+					android:textSize="13sp"
+					android:textColor="#FFFFFF"
+					android:typeface="monospace"
+					android:fontFamily="monospace" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/extra_fields_container"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:visibility="gone" />
+			<Button
+				android:id="@+id/btn_share_term"
+				android:layout_width="match_parent"
+				android:layout_height="48dp"
+				android:layout_marginTop="8dp"
+				android:background="@drawable/button_gradient_green"
+				android:text="📤 مشاركة المصطلح"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

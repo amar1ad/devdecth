@@ -1,0 +1,90 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:background="@drawable/splash_gradient">
+	<LinearLayout
+		android:id="@+id/linear3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical"
+		android:animation="@anim/fade_in">
+		<ImageView
+			android:id="@+id/logo_image"
+			android:layout_width="120dp"
+			android:layout_height="120dp"
+			android:layout_marginBottom="20dp"
+			android:src="@drawable/ic_code"
+			android:scaleType="centerInside" />
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/textview5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="المبرمج"
+				android:textSize="32sp"
+				android:textStyle="bold"
+				android:textColor="#5ED6C1"
+				android:shadowColor="#1A3A5C"
+				android:shadowDx="2"
+				android:shadowDy="2"
+				android:shadowRadius="4" />
+			<TextView
+				android:id="@+id/textview6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="قاموس"
+				android:textSize="32sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"
+				android:layout_marginStart="4dp"
+				android:shadowColor="#1A3A5C"
+				android:shadowDx="2"
+				android:shadowDy="2"
+				android:shadowRadius="4" />
+		</LinearLayout>
+		<TextView
+			android:id="@+id/textview7"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="12dp"
+			android:layout_marginBottom="40dp"
+			android:text="أول قاموس تفاعلي للمبرمجين"
+			android:textSize="14sp"
+			android:textColor="#CCE0FF" />
+		<ProgressBar
+			android:id="@+id/progressBar"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:indeterminate="true"
+			style="?android:progressBarStyle"
+			android:indeterminateTint="#5ED6C1" />
+		<TextView
+			android:id="@+id/loading_text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="12dp"
+			android:text="جاري التحميل..."
+			android:textSize="12sp"
+			android:textColor="#CCE0FF" />
+		<TextView
+			android:id="@+id/textview8"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="40dp"
+			android:text="مهندس برمجيات: عمار محمد فطيح"
+			android:textSize="11sp"
+			android:textColor="#FFFFFF"
+			android:layout_gravity="center_horizontal|center_vertical" />
+	</LinearLayout>
+</LinearLayout>

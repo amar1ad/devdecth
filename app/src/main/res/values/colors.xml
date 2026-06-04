@@ -1,0 +1,29 @@
+<resources>
+    <color name="colorPrimary">#1A2C3E</color>
+    <color name="colorPrimaryDark">#0F1E2D</color>
+    <color name="colorAccent">#5ED6C1</color>
+    <color name="colorControlHighlight">#5ED6C1</color>
+    <color name="colorControlNormal">#3B82F6</color>
+    <color name="statusBarColor">#1A2C3E</color>
+    <color name="navigationBarColor">#1A2C3E</color>
+    <!--ألوان إضافية للتصميم-->
+    <color name="primary_dark">#1A2C3E</color>
+    <color name="primary_green">#5ED6C1</color>
+    <color name="primary_blue">#3B82F6</color>
+    <color name="background_gray">#F0F2F5</color>
+    <color name="text_dark">#1A2C3E</color>
+    <color name="text_light">#FFFFFF</color>
+    <color name="text_gray">#7F8C8D</color>
+    <color name="card_white">#FFFFFF</color>
+    <color name="background_main">#F0F2F5</color>
+    <color name="gradient_start">#1A3A5C</color>
+    <color name="gradient_end">#0F2442</color>
+    <color name="green_gradient_start">#193559</color>
+    <color name="green_gradient_end">#193559</color>
+    <color name="blue_gradient_start">#193559</color>
+    <color name="blue_gradient_end">#193559</color>
+    <color name="purple_gradient_start">#193559</color>
+    <color name="purple_gradient_end">#193559</color>
+    <color name="orange_gradient_start">#193559</color>
+    <color name="orange_gradient_end">#193559</color>
+</resources>

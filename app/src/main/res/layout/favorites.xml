@@ -1,0 +1,72 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#F0F2F5">
+	<LinearLayout
+		android:id="@+id/linear18"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="16dp"
+		android:background="@drawable/header_gradient"
+		android:orientation="vertical"
+		android:elevation="4dp">
+		<ImageButton
+			android:id="@+id/btn_back"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:background="@drawable/circle_button_bg"
+			android:src="@drawable/ic_back"
+			android:scaleType="centerInside" />
+		<TextView
+			android:id="@+id/textview6"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="8dp"
+			android:text="⭐ المفضلة"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF"
+			android:layout_gravity="center_horizontal|center_vertical" />
+		<TextView
+			android:id="@+id/fav_count"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="4dp"
+			android:text="0 مصطلح مفضل"
+			android:textSize="12sp"
+			android:textColor="#FFFFFF"
+			android:layout_gravity="center_horizontal|center_vertical" />
+	</LinearLayout>
+	<Button
+		android:id="@+id/btn_clear_all"
+		android:layout_width="match_parent"
+		android:layout_height="44dp"
+		android:layout_margin="12dp"
+		android:background="@drawable/button_gradient_red"
+		android:text="🗑️ مسح الكل"
+		android:textSize="12sp"
+		android:textStyle="bold"
+		android:textColor="#FFFFFF" />
+	<ListView
+		android:id="@+id/list_favorites"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:dividerHeight="8dp"
+		android:choiceMode="none"
+		android:divider="@android:color/transparent" />
+	<TextView
+		android:id="@+id/empty_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal|center_vertical"
+		android:text="⭐ لا توجد مصطلحات مفضلة بعد\nاضغط على النجمة لإضافة مصطلحات"
+		android:textSize="14sp"
+		android:textColor="#888888"
+		android:layout_gravity="center_horizontal|center_vertical"
+		android:visibility="gone" />
+</LinearLayout>

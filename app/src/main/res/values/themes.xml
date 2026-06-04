@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- الألوان الأساسية -->
+    <color name="primaryColor">#1A2C3E</color>
+    <color name="primaryDarkColor">#0F1E2D</color>
+    <color name="accentColor">#5ED6C1</color>
+    <color name="backgroundColor">#F0F2F5</color>
+    <color name="textPrimary">#1A2C3E</color>
+    <color name="textSecondary">#7F8C8D</color>
+    <color name="textLight">#FFFFFF</color>
+    <color name="cardBackground">#FFFFFF</color>
+    
+    <!-- Theme الرئيسي -->
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/primaryColor</item>
+        <item name="android:colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="android:colorAccent">@color/accentColor</item>
+        <item name="android:statusBarColor">@color/primaryDarkColor</item>
+        <item name="android:navigationBarColor">@color/primaryDarkColor</item>
+        <item name="android:windowBackground">@color/backgroundColor</item>
+    </style>
+    
+    <!-- شاشة ترحيب (بدون ActionBar) -->
+    <style name="SplashTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/primaryColor</item>
+        <item name="android:colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="android:colorAccent">@color/accentColor</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@color/primaryDarkColor</item>
+        <item name="android:navigationBarColor">@color/primaryDarkColor</item>
+    </style>
+    
+    <!-- بدون ActionBar -->
+    <style name="NoActionBarTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/primaryColor</item>
+        <item name="android:colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="android:colorAccent">@color/accentColor</item>
+        <item name="android:statusBarColor">@color/primaryDarkColor</item>
+        <item name="android:navigationBarColor">@color/primaryDarkColor</item>
+        <item name="android:windowBackground">@color/backgroundColor</item>
+    </style>
+    
+</resources>

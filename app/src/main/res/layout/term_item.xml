@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/grid_item_bg"
+    android:layout_margin="8dp"
+    android:padding="12dp"
+    android:orientation="horizontal"
+    android:elevation="2dp">
+
+    <!-- حاوية الصورة / الأيقونة -->
+    <FrameLayout
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="12dp"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/term_icon_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/term_icon_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <!-- محتوى النص -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/term_title_ar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="متغير"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#193559" />
+
+        <TextView
+            android:id="@+id/term_title_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Variable"
+            android:textSize="13sp"
+            android:textColor="#7F8C8D"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/term_definition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="مكان في الذاكرة لتخزين قيمة"
+            android:textSize="12sp"
+            android:textColor="#555555"
+            android:layout_marginTop="6dp"
+            android:maxLines="2" />
+
+    </LinearLayout>
+
+    <!-- زر المفضلة -->
+    <ImageButton
+        android:id="@+id/btn_favorite"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_star_empty"
+        android:background="@drawable/circle_button_bg"
+        android:scaleType="centerInside"
+        android:layout_marginEnd="8dp" />
+
+    <!-- سهم التوجيه -->
+    <ImageView
+        android:id="@+id/ic_arrow"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_arrow"
+        android:layout_gravity="center_vertical" />
+
+</LinearLayout>

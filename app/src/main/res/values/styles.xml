@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- الألوان الأساسية -->
+    <color name="colorPrimary">#1A2C3E</color>
+    <color name="colorPrimaryDark">#0F1E2D</color>
+    <color name="colorAccent">#5ED6C1</color>
+    <color name="colorControlHighlight">#5ED6C1</color>
+    <color name="colorControlNormal">#3B82F6</color>
+    <color name="statusBarColor">#1A2C3E</color>
+    <color name="navigationBarColor">#1A2C3E</color>
+
+    <!-- Theme الرئيسي للتطبيق -->
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorControlHighlight">@color/colorControlHighlight</item>
+        <item name="android:colorControlNormal">@color/colorControlNormal</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="android:navigationBarColor">@color/navigationBarColor</item>
+        <item name="android:windowBackground">@color/background_gray</item>
+    </style>
+
+    <!-- شاشة كاملة (لشاشة الترحيب) -->
+    <style name="FullScreen" parent="@android:style/Theme.Material.Light.NoActionBar.Fullscreen">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorControlHighlight">@color/colorControlHighlight</item>
+        <item name="android:colorControlNormal">@color/colorControlNormal</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="android:windowBackground">@color/background_gray</item>
+    </style>
+
+    <!-- بدون ActionBar -->
+    <style name="NoActionBar" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorControlHighlight">@color/colorControlHighlight</item>
+        <item name="android:colorControlNormal">@color/colorControlNormal</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="android:windowBackground">@color/background_gray</item>
+    </style>
+
+    <!-- بدون Status Bar (لشاشة الترحيب) -->
+    <style name="NoStatusBar" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- لشاشة Debug (إن وجدت) -->
+    <style name="AppTheme.DebugActivity" parent="AppTheme">
+    </style>
+
+</resources>

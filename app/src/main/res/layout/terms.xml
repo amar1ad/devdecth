@@ -1,0 +1,77 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#F0F2F5">
+	<LinearLayout
+		android:id="@+id/linear3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="16dp"
+		android:background="@drawable/header_gradient"
+		android:orientation="vertical"
+		android:elevation="4dp">
+		<ImageButton
+			android:id="@+id/btn_back"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:background="@drawable/circle_button_bg"
+			android:src="@drawable/ic_back"
+			android:scaleType="centerInside" />
+		<TextView
+			android:id="@+id/category_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="8dp"
+			android:text="أساسيات البرمجة"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF"
+			android:layout_gravity="center_horizontal|center_vertical" />
+		<TextView
+			android:id="@+id/terms_count"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="4dp"
+			android:text="12 مصطلح"
+			android:textSize="12sp"
+			android:textColor="#FFFFFF"
+			android:layout_gravity="center_horizontal|center_vertical" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linear4"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="12dp"
+		android:padding="8dp"
+		android:background="@drawable/search_background"
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+		<SearchView
+			android:id="@+id/search_terms"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:queryHint="🔍ابحث_عن_مصطلح..."
+			android:iconifiedByDefault="false" />
+	</LinearLayout>
+	<ListView
+		android:id="@+id/list_terms"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:dividerHeight="8dp"
+		android:choiceMode="none"
+		android:divider="@android:color/transparent"
+		android:scrollbars="none" />
+	<ProgressBar
+		android:id="@+id/progressBar"
+		android:layout_width="48dp"
+		android:layout_height="48dp"
+		android:indeterminate="false"
+		style="?android:progressBarStyle"
+		android:layout_gravity="center_horizontal|center_vertical"
+		android:visibility="gone" />
+</LinearLayout>

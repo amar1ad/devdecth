@@ -1,0 +1,91 @@
+<resources>
+    <!-- اسم التطبيق -->
+    <string name="app_name" translatable="false">قاموس المبرمج</string>
+    <!-- عناوين عامة -->
+    <string name="welcome_message">مرحباً بك في</string>
+    <string name="app_subtitle">أول قاموس تفاعلي للمبرمجين</string>
+    <string name="programmer">المبرمج</string>
+    <string name="dictionary">قاموس</string>
+    <!-- الإحصائيات -->
+    <string name="stats_categories">تصنيف</string>
+    <string name="stats_terms">مصطلح</string>
+    <string name="stats_last_update">آخر تحديث</string>
+    <!-- الأزرار -->
+    <string name="btn_refresh">تحديث</string>
+    <string name="btn_check_updates">تحديثات</string>
+    <string name="btn_favorites">المفضلة</string>
+    <string name="btn_languages">لغات البرمجة</string>
+    <string name="btn_about">عن التطبيق</string>
+    <string name="btn_share">مشاركة</string>
+    <string name="btn_back">رجوع</string>
+    <!-- البحث -->
+    <string name="search_hint">ابحث عن لغة أو مصطلح...</string>
+    <!-- نافذة عن التطبيق -->
+    <string name="about_title">عن التطبيق</string>
+    <string name="about_version">الإصدار: 1.0.0</string>
+    <string name="about_description">1- تطبيق شامل لمصطلحات البرمجةn &#10;2- يدعم اللغتين العربية والإنجليزيةn&#10;3- يعمل بدون إنترنت بعد التحميل</string>
+    <string name="about_developer"> تطوير: مهندس برمجياتn   * عمار محمد فطيح</string>
+    <string name="about_contact"> للتواصل: amar12ad6@gmail.com </string>
+    <!-- نافذة المفضلة -->
+    <string name="favorites_title">المفضلة</string>
+    <string name="favorites_empty">⭐ لا توجد مصطلحات مفضلة بعدnاضغط على النجمة لإضافة مصطلحات</string>
+    <string name="favorites_count">مصطلح مفضل</string>
+    <string name="clear_all">مسح الكل</string>
+    <string name="clear_all_confirm">هل تريد حذف جميع المصطلحات من المفضلة؟</string>
+    <string name="delete_confirm">حذف من المفضلة</string>
+    <string name="delete_message">هل تريد إزالة &quot;%s&quot; من المفضلة؟</string>
+    <!-- رسائل الإشعارات -->
+    <string name="notification_title">المصطلح اليومي</string>
+    <string name="notification_channel_name">المصطلح اليومي</string>
+    <string name="notification_channel_description">إشعار يومي بمصطلح برمجي جديد</string>
+    <!-- رسائل التحميل -->
+    <string name="loading_data">جاري تحميل البيانات...</string>
+    <string name="loading_from_server">جاري التحميل من الخادم...</string>
+    <string name="loading_local">بيانات مخزنة محلياً</string>
+    <string name="data_loaded">تم تحميل البيانات المخزنة</string>
+    <string name="data_updated"> تم تحديث البيانات بنجاح</string>
+    <string name="data_error"> خطأ في معالجة البيانات</string>
+    <string name="network_error"> فشل الاتصال بالإنترنت</string>
+    <!-- رسائل المفضلة -->
+    <string name="added_to_favorites"> تمت الإضافة إلى المفضلة</string>
+    <string name="removed_from_favorites"> تم الإزالة من المفضلة</string>
+    <string name="cleared_all_favorites"> تم مسح جميع المفضلة</string>
+    <!-- رسائل الإشعارات -->
+    <string name="notifications_enabled"> تم تفعيل الإشعارات اليومية</string>
+    <string name="notifications_disabled"> تم إيقاف الإشعارات اليومية</string>
+    <string name="checking_updates">جاري التحقق من التحديثات...</string>
+    <string name="update_available"> تحديث جديد متاح! اضغط تحديث البيانات</string>
+    <string name="latest_version"> أنت تستخدم أحدث إصدار</string>
+    <string name="update_check_failed"> فشل التحقق من التحديثات</string>
+    <!-- رسائل المصطلحات -->
+    <string name="term_copied"> تم نسخ الكود</string>
+    <string name="share_term_title">مشاركة المصطلح</string>
+    <!-- تواصل مع المطور -->
+    <string name="follow_me">تابعني على</string>
+    <string name="twitter">X (Twitter)</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook">Facebook</string>
+    <string name="telegram">Telegram</string>
+    <string name="tiktok">TikTok</string>
+    <!-- أيقونات التواصل -->
+    <string name="social_x">تويتر</string>
+    <string name="social_instagram">انستغرام</string>
+    <string name="social_facebook">فيسبوك</string>
+    <string name="social_telegram">تيليغرام</string>
+    <string name="social_tiktok">تيك توك</string>
+    <!-- رسائل الشاشات -->
+    <string name="terms_title">المصطلحات</string>
+    <string name="detail_title">تفاصيل المصطلح</string>
+    <string name="language">لغة:</string>
+    <string name="example">مثال:</string>
+    <string name="definition">التعريف:</string>
+    <!-- رسائل الأخطاء -->
+    <string name="error_loading_terms">فشل تحميل المصطلحات</string>
+    <string name="error_loading_data">خطأ في قراءة البيانات المخزنة</string>
+    <string name="error_processing_data">خطأ في معالجة البيانات</string>
+    <!-- أزرار التأكيد -->
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="ok">حسناً</string>
+    <string name="cancel">إلغاء</string>
+</resources>

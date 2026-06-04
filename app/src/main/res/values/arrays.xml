@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- قائمة عناصر القائمة الجانبية -->
+    <string-array name="drawer_menu_items">
+        <item>الرئيسية</item>
+        <item>المفضلة</item>
+        <item>لغات البرمجة</item>
+        <item>تحديث البيانات</item>
+        <item>مشاركة التطبيق</item>
+        <item>عن التطبيق</item>
+    </string-array>
+    
+    <!-- قائمة ألوان التصنيفات الافتراضية -->
+    <string-array name="default_category_colors">
+        <item>#3B82F6</item>
+        <item>#10B981</item>
+        <item>#F59E0B</item>
+        <item>#8B5CF6</item>
+        <item>#EF4444</item>
+        <item>#06B6D4</item>
+        <item>#EC4899</item>
+        <item>#6366F1</item>
+    </string-array>
+    
+    <!-- قائمة أيقونات افتراضية للتصنيفات -->
+    <string-array name="default_category_icons">
+        <item>📚</item>
+        <item>💻</item>
+        <item>🌐</item>
+        <item>🗄️</item>
+        <item>🔗</item>
+        <item>🧩</item>
+        <item>🧮</item>
+        <item>⚙️</item>
+    </string-array>
+    
+    <!-- قائمة لغات البرمجة -->
+    <string-array name="programming_languages">
+        <item>Python</item>
+        <item>Java</item>
+        <item>JavaScript</item>
+        <item>C++</item>
+        <item>C#</item>
+        <item>PHP</item>
+        <item>Swift</item>
+        <item>Kotlin</item>
+        <item>Ruby</item>
+        <item>Go</item>
+        <item>Rust</item>
+        <item>TypeScript</item>
+    </string-array>
+    
+    <!-- قائمة مستويات الصعوبة -->
+    <string-array name="difficulty_levels">
+        <item>مبتدئ</item>
+        <item>متوسط</item>
+        <item>متقدم</item>
+        <item>خبير</item>
+    </string-array>
+    
+    <!-- روابط وسائل التواصل -->
+    <string-array name="social_links">
+        <item>https://x.com/ammar_12ad1</item>
+        <item>https://www.instagram.com/ammar_12ad</item>
+        <item>https://www.facebook.com/amar12ad1</item>
+        <item>https://t.me/progmamar</item>
+        <item>https://tiktok.com/@ammar_12ad</item>
+    </string-array>
+    
+    <!-- أسماء وسائل التواصل -->
+    <string-array name="social_names">
+        <item>X (Twitter)</item>
+        <item>Instagram</item>
+        <item>Facebook</item>
+        <item>Telegram</item>
+        <item>TikTok</item>
+    </string-array>
+    
+    <!-- نصائح يومية -->
+    <string-array name="daily_tips">
+        <item>اكتب الكود كما لو كان شخص آخر سيقرأه</item>
+        <item>التوثيق الجيد يوفر وقتاً كبيراً في المستقبل</item>
+        <item>اختبر كودك باستمرار لتكتشف الأخطاء مبكراً</item>
+        <item>تعلم Git ضروري لكل مبرمج</item>
+        <item>لا تحفظ الكود، افهم المنطق</item>
+        <item>اقرأ كود الآخرين لتتعلم أساليب جديدة</item>
+    </string-array>
+    
+</resources>

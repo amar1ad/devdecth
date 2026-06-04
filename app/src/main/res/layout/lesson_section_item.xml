@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/grid_item_bg"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/section_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="عنوان القسم"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#193559"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/section_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="محتوى القسم"
+        android:textSize="13sp"
+        android:textColor="#555555"
+        android:visibility="gone"
+        android:lineSpacingExtra="4dp" />
+
+    <TextView
+        android:id="@+id/section_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="// الكود هنا"
+        android:textSize="12sp"
+        android:typeface="monospace"
+        android:textColor="#1A2C3E"
+        android:background="#F0F2F5"
+        android:padding="12dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/section_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/section_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_secondary"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:visibility="gone" />
+
+</LinearLayout>

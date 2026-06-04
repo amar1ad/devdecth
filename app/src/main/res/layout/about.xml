@@ -1,0 +1,304 @@
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#F0F2F5"
+	android:fillViewport="true">
+	<LinearLayout
+		android:id="@+id/linear11"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear12"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="24dp"
+			android:background="@drawable/header_gradient"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical"
+			android:elevation="4dp">
+			<ImageView
+				android:id="@+id/logo_image"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:layout_marginBottom="12dp"
+				android:src="@drawable/ic_code"
+				android:scaleType="centerInside" />
+			<TextView
+				android:id="@+id/textview16"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="قاموس المبرمج"
+				android:textSize="24sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"
+				android:shadowColor="#1A3A5C"
+				android:shadowDx="1"
+				android:shadowDy="1"
+				android:shadowRadius="3" />
+			<TextView
+				android:id="@+id/textview17"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="4dp"
+				android:text="الإصدار 1.0.0"
+				android:textSize="12sp"
+				android:textColor="#CCE0FF" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear13"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="16dp"
+			android:padding="20dp"
+			android:background="@drawable/grid_item_bg"
+			android:gravity="right"
+			android:orientation="vertical"
+			android:elevation="2dp">
+			<TextView
+				android:id="@+id/textview18"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="12dp"
+				android:text="👨‍💻 المطور"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#193559" />
+			<TextView
+				android:id="@+id/textview19"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="مهندس برمجيات"
+				android:textSize="14sp"
+				android:textColor="#555555" />
+			<TextView
+				android:id="@+id/textview20"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="4dp"
+				android:text="عمار محمد فطيح"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#3B82F6" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear14"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="16dp"
+			android:padding="20dp"
+			android:background="@drawable/grid_item_bg"
+			android:gravity="right"
+			android:orientation="vertical"
+			android:elevation="2dp">
+			<TextView
+				android:id="@+id/textview21"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="12dp"
+				android:text="ℹ️ عن التطبيق"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#193559" />
+			<TextView
+				android:id="@+id/textview22"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="8dp"
+				android:text="📚 أول قاموس تفاعلي للمبرمجين"
+				android:textSize="13sp"
+				android:textColor="#555555" />
+			<TextView
+				android:id="@+id/textview23"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="8dp"
+				android:text="🌐 يدعم اللغتين العربية والإنجليزية"
+				android:textSize="13sp"
+				android:textColor="#555555" />
+			<TextView
+				android:id="@+id/textview24"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="8dp"
+				android:text="💾 يعمل بدون إنترنت بعد التحميل"
+				android:textSize="13sp"
+				android:textColor="#555555" />
+			<TextView
+				android:id="@+id/textview25"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="8dp"
+				android:text="⭐ إضافة المصطلحات إلى المفضلة"
+				android:textSize="13sp"
+				android:textColor="#555555" />
+			<TextView
+				android:id="@+id/textview26"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="🔔 إشعارات يومية بمصطلحات جديدة"
+				android:textSize="13sp"
+				android:textColor="#555555" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear15"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="16dp"
+			android:padding="20dp"
+			android:background="@drawable/grid_item_bg"
+			android:gravity="right"
+			android:orientation="vertical"
+			android:elevation="2dp">
+			<TextView
+				android:id="@+id/textview27"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="12dp"
+				android:text="📊 إحصائيات"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#193559" />
+			<LinearLayout
+				android:id="@+id/linear16"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:weightSum="2">
+				<LinearLayout
+					android:id="@+id/linear17"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="vertical"
+					android:layout_weight="1">
+					<TextView
+						android:id="@+id/stats_categories_about"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="0"
+						android:textSize="24sp"
+						android:textStyle="bold"
+						android:textColor="#5ED6C1" />
+					<TextView
+						android:id="@+id/textview28"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="تصنيف"
+						android:textSize="12sp"
+						android:textColor="#555555" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear18"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="vertical"
+					android:layout_weight="1">
+					<TextView
+						android:id="@+id/stats_terms_about"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="0"
+						android:textSize="24sp"
+						android:textStyle="bold"
+						android:textColor="#5ED6C1" />
+					<TextView
+						android:id="@+id/textview29"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="مصطلح"
+						android:textSize="12sp"
+						android:textColor="#555555" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear19"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="16dp"
+			android:padding="20dp"
+			android:background="@drawable/grid_item_bg_pro"
+			android:orientation="vertical"
+			android:elevation="2dp">
+			<TextView
+				android:id="@+id/textview30"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="16dp"
+				android:text="🔗 تابعني على"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#193559"
+				android:layout_gravity="center_horizontal|center_vertical" />
+			<LinearLayout
+				android:id="@+id/linear20"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="#193559"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal"
+				android:weightSum="5">
+				<ImageButton
+					android:id="@+id/social_x"
+					android:layout_width="0dp"
+					android:layout_height="50dp"
+					android:layout_margin="4dp"
+					android:background="@drawable/circle_button_bg"
+					android:src="@drawable/ic_x"
+					android:scaleType="centerInside"
+					android:layout_weight="1" />
+				<ImageButton
+					android:id="@+id/social_instagram"
+					android:layout_width="0dp"
+					android:layout_height="50dp"
+					android:layout_margin="4dp"
+					android:background="@drawable/circle_button_bg"
+					android:src="@drawable/ic_instagram"
+					android:scaleType="centerInside"
+					android:layout_weight="1" />
+				<ImageButton
+					android:id="@+id/social_facebook"
+					android:layout_width="0dp"
+					android:layout_height="50dp"
+					android:layout_margin="4dp"
+					android:background="@drawable/circle_button_bg"
+					android:src="@drawable/ic_facebook"
+					android:scaleType="centerInside"
+					android:layout_weight="1" />
+				<ImageButton
+					android:id="@+id/social_telegram"
+					android:layout_width="0dp"
+					android:layout_height="50dp"
+					android:layout_margin="4dp"
+					android:background="@drawable/circle_button_bg"
+					android:src="@drawable/ic_telegram"
+					android:scaleType="centerInside"
+					android:layout_weight="1" />
+				<ImageButton
+					android:id="@+id/social_tiktok"
+					android:layout_width="0dp"
+					android:layout_height="50dp"
+					android:layout_margin="4dp"
+					android:background="@drawable/circle_button_bg"
+					android:src="@drawable/ic_tiktok"
+					android:scaleType="centerInside"
+					android:layout_weight="1" />
+			</LinearLayout>
+		</LinearLayout>
+		<Button
+			android:id="@+id/btn_back"
+			android:layout_width="match_parent"
+			android:layout_height="48dp"
+			android:layout_margin="16dp"
+			android:background="@drawable/button_gradient_blue"
+			android:text="رجوع"
+			android:textSize="14sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+	</LinearLayout>
+</ScrollView>
